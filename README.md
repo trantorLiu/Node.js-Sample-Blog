@@ -6,6 +6,8 @@ A sample blog built with [Node.js], [Express], [Mongoose] ([MongoDB]), and [Jade
 Setup
 -------
 
+First, you have to install Node.js (a prefered way is using [nvm]). Then do the following steps.
+
 	git clone git://github.com/trantorLiu/Node.js-Sample-Blog.git
 	cd Node.js-Sample-Blog
 	npm install
@@ -29,3 +31,4 @@ As a practice, you may add the following features yourself.
 [Mongoose]: http://mongoosejs.com/
 [MongoDB]: http://www.mongodb.org/
 [Jade]: https://github.com/visionmedia/jade
+[nvm: https://github.com/creationix/nvm
