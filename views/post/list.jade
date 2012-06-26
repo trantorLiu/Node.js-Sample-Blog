@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+	div
+		a(href="/") 首頁
+		br
+		a(href="/create/post") 新增文章
+	each post in posts
+		div(class="post")
+			h4(class="title")
+				a(href="/post/#{post._id}")= post.title
+			p(class="author") 作者：#{post.title}
+			p(class="body")= post.body
+			a(href="/remove/post/#{post._id}") 刪除
+			&nbsp;|&nbsp;
+			a(href="/update/post/#{post._id}") 編輯

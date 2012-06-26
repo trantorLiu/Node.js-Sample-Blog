@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+	h3(class="title")= post.title
+	p(class="author")= post.author
+	p(class="body")= post.body
+	a(href="/remove/post/#{post._id}") 刪除
+	&nbsp;|&nbsp;
+	a(href="/update/post/#{post._id}") 編輯
+	p &#47;&#47;TODO comments here

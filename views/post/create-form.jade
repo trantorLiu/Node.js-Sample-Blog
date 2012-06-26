@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+	form(method="post", action="/create/post")
+		label(for="title") 標題
+		input(type="text", name="title", id="title")
+		br
+		label(for="author") 作者
+		input(type="text", name="author", id="author")
+		br
+		label(for="body") 內容
+		textarea(name="body", id="body")
+		br
+		input(type="submit", name="submit")
