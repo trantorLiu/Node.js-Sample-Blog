@@ -31,4 +31,4 @@ As a practice, you may add the following features yourself.
 [Mongoose]: http://mongoosejs.com/
 [MongoDB]: http://www.mongodb.org/
 [Jade]: https://github.com/visionmedia/jade
-[nvm: https://github.com/creationix/nvm
+[nvm]: https://github.com/creationix/nvm
