@@ -11,6 +11,7 @@ Setup
 	npm install
 	node app.js
 
+You should also install MongoDB on your server.
 Then visit [http://localhost:3000].
 
 TODO
