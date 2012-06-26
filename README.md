@@ -28,3 +28,4 @@ As a practice, you may add the following features yourself.
 [Express]: http://expressjs.com/
 [Mongoose]: http://mongoosejs.com/
 [MongoDB]: http://www.mongodb.org/
+[Jade]: https://github.com/visionmedia/jade
