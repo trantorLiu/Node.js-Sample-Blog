@@ -24,6 +24,7 @@ As a practice, you may add the following features yourself.
 * CRUD support for comments (CRUD stands for Create, Read, Update, and Delete.)
 * Authentication
 * Form validation
+* Perhaps a better routing logic
 
 
 [http://localhost:3000]: http://localhost:3000
